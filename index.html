@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Js</title>
+</head>
+<body>
+    
+
+
+    <script>
+      // write a function to check if a number is even or odd.
+      let prompt = parseInt(prompt("Enter a Number"))
+     function checkNum(num) {
+        if(num % 2 == 0 ){
+          return "Even";
+        }else {
+          return "Odd";
+        }
+     }
+     console.log(checkNum(prompt));
+    
+
+    //  write a function that returns the square of a number.
+    let pro = parseInt(prompt("Enter your Favrite Number"))
+     function num(a1) {
+      let num1 = a1 ** 2;
+      return num1;
+     }
+     let b = num(pro)
+     console.log(b);
+
+    //  Write a function that checks if  number is positive,Negative,or Zero.
+    function checkNumequlto(chackNum) {
+        if(chackNum < 0 ){
+          return "Negative";
+        }else if(chackNum > 0) {
+          return "Positive";
+        }else if(chackNum == 0) {
+          return "Is equal to Zero";
+        }
+     }
+     console.log(checkNumequlto(-10));
+   
+     
+        
+    </script>
+</body>
+</html>
